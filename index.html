@@ -397,7 +397,7 @@
                 <p class="footer-social-title">Subscribe</p>
                 <form class="footer-form">
                     <label for="footer-email" class="footer-label">
-                        <input type="email" name="email" class="footer-input" placeholder="E-mail" required />
+                        <input type="email" name="email" id="footer-email" class="footer-input" placeholder="E-mail" required />
                     </label>
                     <button class="footer-button" type="submit">
                         Subscribe
@@ -424,7 +424,7 @@
                 <div class="modal-form-box">
                     <label class="modal-label" for="user-name">Name</label>
                     <div class="modal-input-box">
-                        <input type="text" name="user-name" class="modal-input" required />
+                        <input type="text" name="user-name" id="user-name" class="modal-input" required />
                         <svg class="modal-input-icon" width="18" height="18">
                             <use href="./images/icons.svg#icon-person-black-18dp"></use>
                         </svg>
@@ -433,7 +433,7 @@
                 <div class="modal-form-box">
                     <label class="modal-label" for="user-phone">Phone</label>
                     <div class="modal-input-box">
-                        <input type="tel" name="user-phone" required class="modal-input" />
+                        <input type="tel" name="user-phone" id="user-phone" required class="modal-input" />
                         <svg class="modal-input-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-phone-black-18dp"></use>
                         </svg>
@@ -442,7 +442,7 @@
                 <div class="modal-form-box">
                     <label class="modal-label" for="user-email">Email</label>
                     <div class="modal-input-box">
-                        <input type="email" name="user-email" class="modal-input" required />
+                        <input type="email" name="user-email" id="user-email" class="modal-input" required />
                         <svg class="modal-input-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-email-black-18dp"></use>
                         </svg>
@@ -450,13 +450,13 @@
                 </div>
                 <div class="modal-form-box is-textarea">
                     <label class="modal-label" for="user-comment">Comment</label>
-                    <textarea name="user-comment" class="modal-textarea"  placeholder="Text input"></textarea>
+                    <textarea name="user-comment" id="user-comment" class="modal-textarea"  placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-checkbox">
-                    <input class="modal-checkbox-input visually-hidden" type="checkbox" value="true" name="user-privacy" required />
+                    <input class="modal-checkbox-input visually-hidden" type="checkbox" value="true" name="user-privacy" id="user-privacy" required />
                     <label class="modal-label is-checkbox" for="user-privacy">
                         <span class="modal-policy-span">
-                            <svg class="modal-icons-checkbox" width="10" height="8">
+                            <svg class="modal-icons-checkbox" width="16" height="16">
                                 <use href="./images/icons.svg#icon-Checkbox"></use>
                             </svg>
                         </span>
