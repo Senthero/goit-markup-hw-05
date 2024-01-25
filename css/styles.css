@@ -661,8 +661,8 @@ address a:focus {
     border: none;
 }
 
-.modal-close-button:hover .modal__close-icon,
-.modal-close-button:focus .modal__close-icon {
+.modal-close-button:hover .modal-close-icon,
+.modal-close-button:focus .modal-close-icon {
     fill: #ffffff;
 }
 
